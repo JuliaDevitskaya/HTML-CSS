@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Оставить заявку</title>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <a href="../index.html">Главная</a>
-    <a href="../catalog/catalog.html">Каталог</a>
-    <a href="application/application.html">Оставить заявку</a>
-    <a href="">Контакты</a>
-    <h1>Оставить заявку</h1>
-    <form action="#">
-        <input type="text" placeholder="Введите ваше имя"><br>
-        <input type="email" placeholder="Введите адрес почты"><br>
-        <button type="submit">Отправить</button>
-        <button type="reset">Удалить</button>
-        
+    <div class="header">
+        <div class="container flex">
+            <a class="header-link" href="../index.html">Главная</a>
+            <a class="header-link" href="../catalog/catalog.html">Каталог</a>
+            <a class="header-link" href="application/application.html">Оставить заявку</a>
+            <a class="header-link" href="">Контакты</a>
+        </div>
+    </div>
 
+    <div class="content">
+        <div class="container">
+            <h1 class="heading-first">Оставить заявку</h1>
+            <form action="#">
+                <input type="text" placeholder="Введите ваше имя"><br>
+                <input type="email" placeholder="Введите адрес почты"><br>
+                <button type="submit">Отправить</button>
+                <button type="reset">Удалить</button>
+            </form>
+        </div>
+    </div>
+    
+   <div class="footer">
+    <div class="container"></div>
+   </div>
         
-    </form>
 </body>
 </html>
