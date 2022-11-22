@@ -6,20 +6,18 @@
 
 .header {
     height: 150px;
-    background-color: #7D7987;
+    background-color: #BC8F8F;
 }
 
 .footer {
     height: 150px;
-    background-color: #7D7987;
+    background-color: #D3D3D3;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
 }
-
-
 
 .header-link {
     text-decoration: none;
